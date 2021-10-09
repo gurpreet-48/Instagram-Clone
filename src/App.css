@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+.app__header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  justify-content: space-between;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.app__signup button {
+  background-color: rgba(18, 85, 228, 0.849);
+  color: white;
+  margin-top: 60px;
+  font-size: large;
+}
+.app__signup button:hover {
+  background-color: rgba(22, 87, 228, 0.781);
+  color: white;
+}
+.app__signup input {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.app-headerImage {
+  object-fit: contain;
+}
+
+.app__posts {
+  padding: 20px;
+}
